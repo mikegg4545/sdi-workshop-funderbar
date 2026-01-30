@@ -48,8 +48,8 @@
 
       it('should return product of the two numbers passed into it', function() {
         expect(_.multiply(1,1)).to.eql(1);
-        expect(_.multiply(11, 5)).to.eql(FILL_ME_IN);
-        expect(_.multiply(10,-2)).to.eql(FILL_ME_IN);
+        expect(_.multiply(11, 5)).to.eql(55);
+        expect(_.multiply(10,-2)).to.eql(-20);
       });
     });
 

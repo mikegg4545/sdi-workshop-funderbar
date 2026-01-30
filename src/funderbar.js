@@ -39,7 +39,7 @@ return a - b
 //_.multiply takes two numbers as parameters and returns their product
 _.multiply = function(a,b){
   //Code Goes Below
-
+return a * b
 }
 
 //_.divide takes two numbers as parameters and returns their quotient
