@@ -66,13 +66,13 @@
 
       it('should return remainderOperator of the two numbers passed into it', function() {
         expect(_.remainderOperator(1,1)).to.eql(0);
-        expect(_.remainderOperator(37, 10)).to.eql(FILL_ME_IN);
-        expect(_.remainderOperator(167, 12)).to.eql(FILL_ME_IN);
-        expect(_.remainderOperator(99, 100)).to.eql(FILL_ME_IN);
-        expect(_.remainderOperator(100, 100)).to.eql(FILL_ME_IN);
-        expect(_.remainderOperator(101, 100)).to.eql(FILL_ME_IN);
-        expect(_.remainderOperator(200, 100)).to.eql(FILL_ME_IN);
-        expect(_.remainderOperator(201, 100)).to.eql(FILL_ME_IN);
+        expect(_.remainderOperator(37, 10)).to.eql(7);
+        expect(_.remainderOperator(167, 12)).to.eql(11);
+        expect(_.remainderOperator(99, 100)).to.eql(99);
+        expect(_.remainderOperator(100, 100)).to.eql(0);
+        expect(_.remainderOperator(101, 100)).to.eql(1);
+        expect(_.remainderOperator(200, 100)).to.eql(0);
+        expect(_.remainderOperator(201, 100)).to.eql(1);
       });
     });
 

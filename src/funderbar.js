@@ -53,6 +53,7 @@ return a / b
 _.remainderOperator = function(a,b){
   //Code Goes Below
   //return the remainder of a divided by b
+  return a % b
 }
 
 //_.increment takes a number as a parameter and increces it by 1
