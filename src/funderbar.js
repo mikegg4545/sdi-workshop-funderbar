@@ -60,7 +60,7 @@ _.remainderOperator = function(a,b){
 // Ensure you use the proper increment operator(not a+1)
 _.increment = function(a){
   //Code Goes Below
-
+return a += a
 }
 
 //_.decrement takes a number as a parameter and reduces it by 1

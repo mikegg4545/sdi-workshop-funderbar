@@ -80,8 +80,8 @@
 
       it('should return the number passed in to it incremented by 1', function() {
         expect(_.increment(1)).to.eql(2);
-        expect(_.increment(37)).to.eql(FILL_ME_IN);
-        expect(_.increment(167)).to.eql(FILL_ME_IN);
+        expect(_.increment(37)).to.eql(74);
+        expect(_.increment(167)).to.eql(334);
       });
     });
 
