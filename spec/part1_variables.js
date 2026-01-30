@@ -89,8 +89,8 @@
 
       it('should return the the number passed in to it decremented by 1', function() {
         expect(_.decrement(1)).to.eql(0);
-        expect(_.decrement(37)).to.eql(FILL_ME_IN);
-        expect(_.decrement(167)).to.eql(FILL_ME_IN);
+        expect(_.decrement(37)).to.eql(0);
+        expect(_.decrement(167)).to.eql(0);
       });
     });
 
@@ -101,16 +101,16 @@
       //Feel free to use a calculator if necessary to solve the problem in the correct order.
       it('determine the outcome based on the equation passed.', function() {
         var test1 = (a,b,c) => a + b * c;
-        expect(_.mathOrder(test1(1,2,3))).to.eql(FILL_ME_IN);
+        expect(_.mathOrder(test1(1,2,3))).to.eql(7);
 
         var test2 = (a,b,c) => a * b + c;
-        expect(_.mathOrder(test2(1,2,3))).to.eql(FILL_ME_IN);
+        expect(_.mathOrder(test2(1,2,3))).to.eql(5);
 
         var test3 = (a,b,c) => a / c * b + c;
-        expect(_.mathOrder(test3(6,8,2))).to.eql(FILL_ME_IN);
+        expect(_.mathOrder(test3(6,8,2))).to.eql(26);
 
         var test4 = (a,b,c) => a + c + b + b * a / b - c / b;
-        expect(_.mathOrder(test4(10,2,6))).to.eql(FILL_ME_IN);
+        expect(_.mathOrder(test4(10,2,6))).to.eql(25);
       });
     });
 

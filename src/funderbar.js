@@ -67,7 +67,7 @@ return a += a
 // Ensure you use the proper decrement operator (not a-1)
 _.decrement = function(a){
   //Code Goes Below
-
+return a -= a
 }
 
 //This function is complete and working. All you will need to do is
