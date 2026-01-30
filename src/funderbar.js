@@ -19,16 +19,13 @@
 // Return the datatype of input: ie. string or number or boolean etc.
 _.dataType = function(input){
   //Code Goes Below
-  var input = 5;
-  return input;
-
-console.log(typeof (input));
+return typeof input
 }
 
 //_.sum takes two numbers as parameters and returns their sum
 _.sum = function(a,b){
     //Code Goes Below
-a + b
+return a + b
 }
 
 //_.subtract takes two numbers as parameters and returns their difference

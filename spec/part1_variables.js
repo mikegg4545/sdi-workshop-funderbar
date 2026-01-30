@@ -18,10 +18,10 @@
     describe('dataType', function() {
 
       it('should return the data type of the value passed into it', function() {
-        expect(_.dataType(1)).to.eql(FILL_ME_IN);
-        expect(_.dataType(false)).to.eql(FILL_ME_IN);
-        expect(_.dataType('Data Type')).to.equal(FILL_ME_IN);
-        expect(_.dataType(undefined)).to.equal(FILL_ME_IN);
+        expect(_.dataType(1)).to.eql('number');
+        expect(_.dataType(false)).to.eql('boolean');
+        expect(_.dataType('Data Type')).to.equal('string');
+        expect(_.dataType(undefined)).to.equal('undefined');
       });
     });
 
@@ -98,7 +98,7 @@
     //Precedence of Evaluation
     describe('mathematical order', function() {
       //Based on the test passed into _.mathOrder, determine the value of the output.
-      //Feel free to use a calculator if necessary to solve the problem in the correct order. 
+      //Feel free to use a calculator if necessary to solve the problem in the correct order.
       it('determine the outcome based on the equation passed.', function() {
         var test1 = (a,b,c) => a + b * c;
         expect(_.mathOrder(test1(1,2,3))).to.eql(FILL_ME_IN);
