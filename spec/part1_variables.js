@@ -39,8 +39,8 @@
       //_.subtract(a,b) === a - b
       it('should return difference of the two numbers passed into it', function() {
         expect(_.subtract(1,1)).to.eql(0);
-        expect(_.subtract(222, 62)).to.eql(FILL_ME_IN);
-        expect(_.subtract(10,-5)).to.eql(FILL_ME_IN);
+        expect(_.subtract(222, 62)).to.eql(160);
+        expect(_.subtract(10,-5)).to.eql(15);
       });
     });
 

@@ -33,7 +33,7 @@ _.subtract = function(a,b){
   //Code Goes Below
   //For your code remember to subtract b from a
   //a - b
-
+return a - b
 }
 
 //_.multiply takes two numbers as parameters and returns their product
