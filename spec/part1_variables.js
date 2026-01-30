@@ -30,7 +30,7 @@
       it('should return sum of the two numbers passed into it', function() {
         expect(_.sum(1,1)).to.eql(2);
         expect(_.sum(33, 150)).to.eql(183);
-        expect(_.sum(10,-5)).to.eql(FILL_ME_IN);
+        expect(_.sum(10,-5)).to.eql(5);
       });
     });
 
