@@ -89,24 +89,25 @@ _.mathOrder = function(test){
 //_.same takes two parameters and returns whether they are the equal or not
 _.same = function(a,b){
   //Code Goes Below
-
+return a === b
 }
 
 //_.greater takes two numbers as parameters and checks if a is greater than b
 _.greater = function(a,b){
   //Code Goes Below
-
+return a > b
 }
 
 //_.lessThan takes two numbers as parameters and checks if a is less than b
 _.lessThan = function(a,b){
   //Code Goes Below
-
+return a < b
 }
 
 //_.falsyOrTruthy takes a parameter and determines whether it is TRUTHY or FALSY
 _.falsyOrTruthy = function(a){
    //Code Goes Below
+return a === true
 
 }
 
@@ -122,13 +123,13 @@ _.falsyOrTruthy = function(a){
   //_.andAnd will be using the && comparator
   _.andAnd = function(a,b,c,d) {
   //Code Goes Below
-
+return (a === b) && (c === d)
   }
 
     //_.orOr will be using the || comparator
     _.orOr = function(a,b,c,d) {
       //Code Goes Below
-
+return (a === b) || (c === d)
       }
 
   //Control Flow
