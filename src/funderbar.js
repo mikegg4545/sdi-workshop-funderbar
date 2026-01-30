@@ -3,7 +3,7 @@
 
   window._ = {};
 
-  var FILL_ME_IN = true;
+  var FILL_ME_IN = 'Fill this value in';
 
 //_.define is wanting you to declare a variable, set your variable to the input from the function
 // and then return the variable you just created. This function is nearly completed for you,
@@ -12,7 +12,7 @@
     // Declare a variable below that is assigned the value of input;
     var result = input;
     // return the above variable
-    return input;
+    return result;
   }
 
 //_.dataType is wanting you to determine the data type of what is being passed into it.
