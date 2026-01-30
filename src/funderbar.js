@@ -46,7 +46,7 @@ return a * b
 _.divide = function(a,b){
   //Code Goes Below
   //a divided by b
-
+return a / b
 }
 
 //_.remainderOperator takes two numbers as parameters and returns their remainder of a divided by b

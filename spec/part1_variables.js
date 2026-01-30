@@ -57,8 +57,8 @@
 
       it('should return quotient of the two numbers passed into it', function() {
         expect(_.divide(1,1)).to.eql(1);
-        expect(_.divide(144, 12)).to.eql(FILL_ME_IN);
-        expect(_.divide(65,10)).to.eql(FILL_ME_IN);
+        expect(_.divide(144, 12)).to.eql(12);
+        expect(_.divide(65,10)).to.eql(6.5);
       });
     });
 
