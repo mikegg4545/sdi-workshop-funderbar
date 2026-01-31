@@ -106,11 +106,11 @@
 		describe('TEST ONLY: Array Values', function () {
 			let arry = [1, 'Javascript', 2, 45, 'Array', 34, 64, true];
 			it("TEST ONLY: Access the Array's Values", function () {
-				expect(FILL_ME_IN).to.eql(1);
-				expect(FILL_ME_IN).to.eql(true);
-				expect(FILL_ME_IN).to.eql('Array');
-				expect(FILL_ME_IN).to.eql('Javascript');
-				expect(FILL_ME_IN).to.eql(undefined);
+				expect(arry[0]).to.eql(1);
+				expect(arry[arry.length - 1]).to.eql(true);
+				expect(arry[4]).to.eql('Array');
+				expect(arry[1]).to.eql('Javascript');
+				expect(arry[8]).to.eql(undefined);
 			});
 		});
 
@@ -128,12 +128,12 @@
 				[7, 8, 9],
 			];
 			it("TEST ONLY: Access the Array's Values", function () {
-				expect(FILL_ME_IN).to.eql(1);
-				expect(FILL_ME_IN).to.eql(9);
-				expect(FILL_ME_IN).to.eql(5);
-				expect(FILL_ME_IN).to.eql(4);
-				expect(FILL_ME_IN).to.eql(8);
-				expect(FILL_ME_IN).to.eql(2);
+				expect(arryMtrx[0][0]).to.eql(1);
+				expect(arryMtrx[2][2]).to.eql(9);
+				expect(arryMtrx[1][1]).to.eql(5);
+				expect(arryMtrx[1][0]).to.eql(4);
+				expect(arryMtrx[2][1]).to.eql(8);
+				expect(arryMtrx[0][1]).to.eql(2);
 			});
 		});
 
