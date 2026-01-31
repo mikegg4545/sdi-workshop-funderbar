@@ -150,7 +150,7 @@
 			];
 			it('should return a sum of all numbers in the array matrix', function () {
 				expect(_.nestedForLoop(testArray)).to.equal(6);
-				expect(_.nestedForLoop(arryMtrx)).to.equal(FILL_ME_IN);
+				expect(_.nestedForLoop(arryMtrx)).to.equal(45);
 			});
 		});
 

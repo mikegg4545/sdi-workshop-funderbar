@@ -163,6 +163,13 @@
 	//Using NESTED for loops, iterate through an array or arrays
 	_.nestedForLoop = function (a) {
 		//Code Goes Below
+		let total = 0;
+		for (let i = 0; i < a.length; i++) {
+			for (let j = 0; j < a[i].length; j++) {
+				total += a[i][j];
+			}
+		}
+		return total;
 	};
 
 	//While looping through the array passed determine the data type of the element. If the element is a number add it to a variable. At the end return that variable.
